@@ -1,12 +1,12 @@
 Maven+Dependencias+Validacion de Expresionnes+Ofuscacion 
-1. Descripción del proyecto
+Descripción del proyecto
 Este proyecto implementa una estructura de datos tipo Pila (Stack) utilizando Java y Maven, junto con un validador de expresiones que verifica si los símbolos (), [] y {} están correctamente balanceados.
 Además, el proyecto demuestra el uso de dependencias Maven y el proceso de ofuscación de código utilizando ProGuard, comparando el comportamiento del programa antes y después de la ofuscación.
 Instrucciones de compilación y ejecución
-4.1 Compilar el proyecto
+Compilar el proyecto
 Abre la consola (CMD).
-Ubícate en la carpeta raíz del proyecto stackHandler, donde se encuentra el archivo pom.xml.
-Ejecuta el siguiente comando:
+Me ubique en la carpeta raíz del proyecto stackHandler, donde se encuentra el archivo pom.xml.
+Ejecute el siguiente comando:
 mvn clean package
 Este comando:
 Limpia compilaciones anteriores
@@ -21,7 +21,6 @@ BUILD SUCCESS
  Análisis de la ofuscación
 ¿Qué tanto se dificulta la lectura?
 La lectura del código ofuscado se dificulta considerablemente. Los nombres originales de clases, métodos y variables son reemplazados por nombres genéricos o letras simples, lo que impide entender fácilmente la intención del código.
-
 ¿Se pierde claridad estructural?
 No se pierde completamente la estructura del programa. Las estructuras de control como if, for y los retornos permanecen intactos, pero la intención del código es menos clara debido al cambio de nombres.
 ¿Sigue siendo posible entender la lógica?
