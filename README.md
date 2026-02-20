@@ -1,4 +1,5 @@
 Maven+Dependencias+Validacion de Expresionnes+Ofuscacion 
+
 Descripción del proyecto
 Este proyecto implementa una estructura de datos tipo Pila (Stack) utilizando Java y Maven, junto con un validador de expresiones que verifica si los símbolos (), [] y {} están correctamente balanceados.
 Además, el proyecto demuestra el uso de dependencias Maven y el proceso de ofuscación de código utilizando ProGuard, comparando el comportamiento del programa antes y después de la ofuscación.
